@@ -547,17 +547,3 @@ img {
   margin-top: 0.5rem;
 }
 
-@media (max-width: 800px) {
-  .accommodation-content,
-  .about-content,
-  .name-content {
-    flex-direction: column;
-    align-items: center;
-  }
-  .side-image,
-  .about-text,
-  .right-images {
-    max-width: 90%;
-    order: unset;
-  }
-}
