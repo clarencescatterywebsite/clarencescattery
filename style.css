@@ -561,3 +561,11 @@ img {
     order: unset;
   }
 }
+
+
+@media (max-width: 768px) {
+  .left-image,
+  .right-images {
+    display: none !important;
+  }
+}
